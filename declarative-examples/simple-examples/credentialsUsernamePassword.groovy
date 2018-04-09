@@ -6,7 +6,7 @@ pipeline {
        * "$FOO_USR" will contain string for Username
        * "$FOO_PSW" will contain string for Password
        */
-      FOO = credentials("FOOcredentials")
+      FOO = credentials("Test_user")
     }
 
     agent any
